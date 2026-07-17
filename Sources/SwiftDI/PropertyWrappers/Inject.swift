@@ -8,7 +8,7 @@
 import Foundation
 
 @propertyWrapper
-struct Inject<T> {
+public struct Inject<T> {
 
     private let resolver: () -> T
 
