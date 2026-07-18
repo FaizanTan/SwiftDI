@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol DependencyRegistrar {
+public protocol DependencyRegistrar {
     func registerAllDependencies(in container: DIContainer)
 }
