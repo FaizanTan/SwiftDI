@@ -8,5 +8,5 @@
 import Foundation
 
 public protocol Registrar {
-    func register(in container: DIContainer)
+    func register<T, Q: Qualifier>(_ type: T.Type, qualifier: Q, scope: Scope,factory: @escaping () -> T)
 }

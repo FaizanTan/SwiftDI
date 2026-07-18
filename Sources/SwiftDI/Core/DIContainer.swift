@@ -7,7 +7,7 @@
 
 import Foundation
 
-public final class DIContainer: Resolver, @unchecked Sendable {
+public final class DIContainer: DependencyContainer, @unchecked Sendable {
 
     // MARK: - Singleton
 
